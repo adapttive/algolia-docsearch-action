@@ -1,0 +1,8 @@
+name: 'Algolia Docsearch Action'
+description: 'Algolia docsearch scarper for indexing'
+outputs:
+  time: # id of output
+    description: 'algolia indexing completed'
+runs:
+  using: 'docker'
+  image: 'Dockerfile'
