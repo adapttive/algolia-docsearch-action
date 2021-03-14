@@ -3,7 +3,7 @@ Algolia Docsearch Action
 
 ## Usage
 
-- sample action config for you project:
+- sample action config for your project:
 
 ```yaml
 name: Algolia Indexer
