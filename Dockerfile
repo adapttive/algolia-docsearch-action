@@ -1,10 +1,4 @@
-#FROM algolia/docsearch-scraper
-
-FROM algolia/docsearch-scraper-base
-LABEL maintainer="docsearch@algolia.com"
-
-WORKDIR /root
-COPY scraper/src ./src
+FROM algolia/docsearch-scraper
 
 RUN echo $(ls ./src)
 
