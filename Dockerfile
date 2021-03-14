@@ -6,4 +6,6 @@ RUN echo $(ls ./src)
 
 RUN echo $(python --version)
 
-ENTRYPOINT ["pipenv", "run", "python", "-m", "src.index"]
+#ENTRYPOINT ["pipenv", "run", "python", "-m", "src.index"]
+COPY entrypoint.sh /entrypoint.sh
+ENTRYPOINT ["/entrypoint.sh"]
