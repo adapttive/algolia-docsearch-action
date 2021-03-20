@@ -1,8 +1,5 @@
 #!/bin/bash
 
-cd /root
-ls ./
-
 pipenv run python --version
 
 pipenv run pip freeze
