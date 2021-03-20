@@ -24,5 +24,5 @@ jobs:
     steps:
     - name: Algolia Docsearch Action
       id: algolia
-      uses:  adapttive/algolia-docsearch-action@1.0.2
+      uses:  adapttive/algolia-docsearch-action@1.1.1
 ```
