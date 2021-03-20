@@ -1,4 +1,5 @@
 #!/bin/bash
+cd /root
 
 pipenv run python --version
 
